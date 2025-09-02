@@ -1,6 +1,4 @@
-type SettingsProps = {};
-
-function Settings(props: SettingsProps) {
+function Settings() {
 	return <div>Settings page</div>;
 }
 

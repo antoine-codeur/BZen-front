@@ -1,15 +1,11 @@
 import Header from './Header';
 import Footer from './Footer';
 
-type LayoutDefaultProps = {
-	children?: React.ReactNode;
-};
-
-function LayoutDefault({ children }: LayoutDefaultProps) {
+function LayoutDefault() {
 	return (
 		<div className="layout-default">
 			<Header />
-			<main>{children}</main>
+			<main>Default Layout</main>
 			<Footer />
 		</div>
 	);

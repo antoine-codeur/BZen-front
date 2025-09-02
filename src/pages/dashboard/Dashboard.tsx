@@ -1,6 +1,4 @@
-type DashboardProps = {};
-
-function Dashboard(props: DashboardProps) {
+function Dashboard() {
 	return <div>Dashboard page</div>;
 }
 

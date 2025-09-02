@@ -1,9 +1,5 @@
-type ModalProps = {
-	children?: React.ReactNode;
-};
-
-function Modal({ children }: ModalProps) {
-	return <div className="modal">{children}</div>;
+function Modal() {
+	return <div className="modal">Modal</div>;
 }
 
 export default Modal;

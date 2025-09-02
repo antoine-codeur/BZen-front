@@ -1,9 +1,5 @@
-type LayoutDashboardProps = {
-	children?: React.ReactNode;
-};
-
-function LayoutDashboard({ children }: LayoutDashboardProps) {
-	return <div className="layout-dashboard">{children}</div>;
+function LayoutDashboard() {
+	return <div className="layout-dashboard">Dashboard Layout</div>;
 }
 
 export default LayoutDashboard;

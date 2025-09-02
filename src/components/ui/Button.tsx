@@ -1,7 +1,5 @@
-type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement>;
-
-function Button(props: ButtonProps) {
-	return <button {...props}>{props.children}</button>;
+function Button() {
+	return <button>Button</button>;
 }
 
 export default Button;

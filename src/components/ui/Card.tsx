@@ -1,9 +1,5 @@
-type CardProps = {
-	children?: React.ReactNode;
-};
-
-function Card({ children }: CardProps) {
-	return <div className="card">{children}</div>;
+function Card() {
+	return <div className="card">Card</div>;
 }
 
 export default Card;

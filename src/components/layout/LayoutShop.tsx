@@ -1,9 +1,5 @@
-type LayoutShopProps = {
-	children?: React.ReactNode;
-};
-
-function LayoutShop({ children }: LayoutShopProps) {
-	return <div className="layout-shop">{children}</div>;
+function LayoutShop() {
+	return <div className="layout-shop">Shop Layout</div>;
 }
 
 export default LayoutShop;

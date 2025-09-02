@@ -1,9 +1,5 @@
-type AlertProps = {
-	message: string;
-};
-
-function Alert({ message }: AlertProps) {
-	return <div className="alert">{message}</div>;
+function Alert() {
+	return <div className="alert">Alert</div>;
 }
 
 export default Alert;

@@ -1,6 +1,4 @@
-type ProductProps = {};
-
-function Product(props: ProductProps) {
+function Product() {
 	return <div>Product page</div>;
 }
 

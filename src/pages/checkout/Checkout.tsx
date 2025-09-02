@@ -1,6 +1,4 @@
-type CheckoutProps = {};
-
-function Checkout(props: CheckoutProps) {
+function Checkout() {
 	return <div>Checkout page</div>;
 }
 

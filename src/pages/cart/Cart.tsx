@@ -1,6 +1,4 @@
-type CartProps = {};
-
-function Cart(props: CartProps) {
+function Cart() {
 	return <div>Cart page</div>;
 }
 

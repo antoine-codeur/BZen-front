@@ -1,6 +1,4 @@
-type CGUProps = {};
-
-function CGU(props: CGUProps) {
+function CGU() {
 	return <div>Terms of Service (CGU) page</div>;
 }
 

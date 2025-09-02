@@ -1,9 +1,5 @@
-type ToastProps = {
-	message: string;
-};
-
-function Toast({ message }: ToastProps) {
-	return <div className="toast">{message}</div>;
+function Toast() {
+	return <div className="toast">Toast</div>;
 }
 
 export default Toast;

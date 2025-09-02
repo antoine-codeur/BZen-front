@@ -1,6 +1,4 @@
-type CGVProps = {};
-
-function CGV(props: CGVProps) {
+function CGV() {
 	return <div>Terms of Sale (CGV) page</div>;
 }
 

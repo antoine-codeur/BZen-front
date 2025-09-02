@@ -1,6 +1,4 @@
-type ProfileProps = {};
-
-function Profile(props: ProfileProps) {
+function Profile() {
 	return <div>User profile page</div>;
 }
 

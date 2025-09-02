@@ -1,21 +1,22 @@
+
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: todo-frontend
-  namespace: todolist
+  name: ${VITE_APP_NAME}
+  namespace: ${VITE_APP_NAMESPACE}
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: todo-frontend
+      app: ${VITE_APP_NAME}
   template:
     metadata:
       labels:
-        app: todo-frontend
+        app: ${VITE_APP_NAME}
     spec:
       containers:
-      - name: todo-frontend
-        image: todo-frontend:latest
+      - name: ${VITE_APP_NAME}
+        image: ${VITE_APP_NAME}:latest
         imagePullPolicy: IfNotPresent
         ports:
-        - containerPort: 5173
+        - containerPort: ${VITE_APP_PORT}

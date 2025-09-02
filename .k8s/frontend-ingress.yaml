@@ -1,19 +1,20 @@
+
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: todo-frontend-ingress-todolist
-  namespace: todolist
+  name: ${VITE_APP_NAME}-ingress-${VITE_APP_NAMESPACE}
+  namespace: ${VITE_APP_NAMESPACE}
   annotations:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   rules:
-  - host: minipc-todolist
+  - host: ${VITE_APP_HOST}
     http:
       paths:
       - path: /
         pathType: Prefix
         backend:
           service:
-            name: todo-frontend-service
+            name: ${VITE_APP_NAME}-service
             port:
-              number: 5173
+              number: ${VITE_APP_PORT}

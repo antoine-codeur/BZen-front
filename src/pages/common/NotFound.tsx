@@ -1,5 +1,3 @@
-import React from "react";
-
 type NotFoundProps = {};
 
 function NotFound(props: NotFoundProps) {

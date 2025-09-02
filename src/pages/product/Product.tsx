@@ -1,5 +1,3 @@
-import React from "react";
-
 type ProductProps = {};
 
 function Product(props: ProductProps) {

@@ -1,5 +1,3 @@
-import React from "react";
-
 type CartProps = {};
 
 function Cart(props: CartProps) {

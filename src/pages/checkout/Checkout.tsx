@@ -1,5 +1,3 @@
-import React from "react";
-
 type CheckoutProps = {};
 
 function Checkout(props: CheckoutProps) {

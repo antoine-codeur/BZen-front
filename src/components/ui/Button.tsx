@@ -1,9 +1,7 @@
-import React from "react";
-
 type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement>;
 
-const Button: React.FC<ButtonProps> = (props) => {
+function Button(props: ButtonProps) {
 	return <button {...props}>{props.children}</button>;
-};
+}
 
 export default Button;

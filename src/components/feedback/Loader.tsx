@@ -1,7 +1,5 @@
-import React from "react";
-
-const Loader: React.FC = () => {
+function Loader() {
 	return <div className="loader">Loading...</div>;
-};
+}
 
 export default Loader;

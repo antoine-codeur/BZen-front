@@ -1,11 +1,17 @@
 import Header from './Header';
 import Footer from './Footer';
 
-function LayoutDefault() {
+import type { ReactNode } from 'react';
+
+type LayoutDefaultProps = {
+	children?: ReactNode;
+};
+
+function LayoutDefault({ children }: LayoutDefaultProps) {
 	return (
 		<div className="layout-default">
 			<Header />
-			<main>Default Layout</main>
+			<main>{children}</main>
 			<Footer />
 		</div>
 	);

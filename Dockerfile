@@ -1,5 +1,5 @@
 # Frontend Dockerfile
-FROM node:20-alpine
+FROM node:22.19.0-alpine
 WORKDIR /app
 COPY package-lock.json ./
 RUN npm install
